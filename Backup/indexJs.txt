@@ -1,0 +1,64 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import 'bootstrap-css-only/css/bootstrap.min.css';
+import 'mdbreact/dist/css/mdb.css';
+import App from "./App";
+import "bootstrap/dist/css/bootstrap.min.css";
+import CarouselFadeExample from "./Components/CarouselFadeExample";
+import NowShowing from "./Components/NowShowing";
+import NowShowingDiv from "./Components/NowShowingDiv";
+import Footer from "./Components/Footer";
+import Titled from "./Components/Titled";
+import Titled2 from "./Components/Titled2";
+// import Payment from './Components/Payment';
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+  <React.StrictMode>
+    <App />
+    <CarouselFadeExample></CarouselFadeExample>
+    <NowShowingDiv title="Now Showing"></NowShowingDiv>
+    {/* <NowShowing
+      mtitle1="Pathaan"
+      mtitle2="The Last of Us"
+      mtitle3="John Wick"
+      mtitle4="Spiderman: No Way Home"
+      mov1={
+        "https://www.bollywoodhungama.com/wp-content/uploads/2022/11/Pathaan-5.jpg"
+      }
+      mov2={
+        "https://bloody-disgusting.com/wp-content/uploads/2022/11/last-of-us-tv-2.png"
+      }
+      mov3={"https://posterspy.com/wp-content/uploads/2022/07/22-07-2022.jpg"}
+      mov4={
+        "https://cdn.marvel.com/content/1x/snh_online_6072x9000_posed_01.jpg"
+      }
+    /> */}
+        <Titled/>
+
+    <NowShowingDiv title="Coming Soon"></NowShowingDiv>
+
+    {/* <NowShowing
+      mtitle1="Tomb Raider"
+      mtitle2="Blood Shot"
+      mtitle3="Jawaan"
+      mtitle4="Dunki"
+      mov1={"https://i.ebayimg.com/images/g/WGIAAOSw3RZaQwN7/s-l500.jpg"}
+      mov2={
+        "https://i.pinimg.com/236x/b3/e8/bb/b3e8bb03e062f060cffbc89385de670c.jpg"
+      }
+      mov3={
+        "https://m.media-amazon.com/images/M/MV5BMmMyNzY3MWYtYjk3OC00YTBkLTgyMTgtNTcwMWMyNWNkYzAzXkEyXkFqcGdeQXVyMTI1NDEyNTM5._V1_.jpg"
+      }
+      mov4={
+        "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcVatJXtYrgzBjnKBikwQI_uwBf4EIxX7Ka7fsQmVksmr7Qr8ypJF_Ge6MuLAVdeNOnLnhnIOltkWVE9lRJBZMQAA_GJtc7oyhxgjjVFUPdzHqCbohFFNF_8oOMrlbPy0_WfpA1LbdY2kuVj47zLcg-FIz4SLaiO7S2p4GB4O88HRgczdGAYBZbXTejw/s600/Dunki-Hindi-Movie-Full-Cast-and-Crew-Wiki.jpg"
+      }
+    /> */}
+    <Titled2/>
+    <Footer></Footer>
+
+    
+
+    {/* <Payment></Payment> */}
+  </React.StrictMode>
+);

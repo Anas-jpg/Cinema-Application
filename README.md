@@ -4,6 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+## The Deployment link is: https://velvety-tapioca-69082c.netlify.app/
+
 In the project directory, you can run:
 
 ### `npm start`
